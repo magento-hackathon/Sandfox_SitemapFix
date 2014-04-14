@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sandfox_SitemapFix>
+            <version>0.1.0</version>
+        </Sandfox_SitemapFix>
+    </modules>
+    <global>
+        <models>
+            <sandfox_sitemapfix>
+                <class>Sandfox_SitemapFix_Model</class>
+            </sandfox_sitemapfix>
+            <sitemap_resource>
+                <rewrite>
+                    <catalog_product>Sandfox_SitemapFix_Model_Resource_Catalog_Product</catalog_product>
+                    <catalog_category>Sandfox_SitemapFix_Model_Resource_Catalog_Category</catalog_category>
+                </rewrite>
+            </sitemap_resource>
+        </models>
+    </global>
+</config>
